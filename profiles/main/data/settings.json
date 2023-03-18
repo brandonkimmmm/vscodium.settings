@@ -1,8 +1,8 @@
 {
 	// #if(os="linux", host="archie")
-    // "window.zoomLevel": -1
+    // "window.zoomLevel": -1,
     // #else
-    // "window.zoomLevel": 0
+    // "window.zoomLevel": 0,
     // #endif
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "material-icon-theme",
