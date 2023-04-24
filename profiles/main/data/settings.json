@@ -1,75 +1,89 @@
 {
-	// #if(os="linux", host="archie")
-    // "window.zoomLevel": -1,
-    // #else
-    // "window.zoomLevel": 0,
-    // #endif
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "workbench.iconTheme": "material-icon-theme",
+  // #if(os="linux", host="archie")
+  // "window.zoomLevel": -1,
+  // #else
+  // "window.zoomLevel": 0,
+  // #endif
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.renderWhitespace": "all",
+  "editor.detectIndentation": true,
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l", "-i"]
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced"
+  },
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.detectIndentation": true,
-	"editor.renderWhitespace": "all",
-    "terminal.integrated.profiles.linux": {
-		"bash": {
-			"path": "bash",
-			"icon": "terminal-bash"
-		},
-		"zsh": {
-			"path": "zsh",
-			"args": ["-l", "-i"]
-		},
-		"fish": {
-			"path": "fish"
-		},
-		"tmux": {
-			"path": "tmux",
-			"icon": "terminal-tmux"
-		},
-		"pwsh": {
-			"path": "pwsh",
-			"icon": "terminal-powershell"
-		}
-	},
-    "terminal.integrated.fontSize": 12,
-	"terminal.integrated.fontFamily": "MesloLGS NF",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
-	},
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-	},
-    "[yaml]":  {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2,
-		"editor.autoIndent": "advanced"
-	},
-    "[prisma]": {
-		"editor.defaultFormatter": "Prisma.prisma",
-		"editor.formatOnSave": true,
-	},
-    "[python]": {
-		"editor.tabSize": 4,
-		"editor.insertSpaces": true,
-		"editor.formatOnSave": true,
-		"editor.codeActionsOnSave": {
-			"source.organizeImports": true
-		},
-	},
-	"[vue]": {
-		"editor.defaultFormatter": "Vue.volar",
-		"editor.formatOnSave": true
-	},
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"editor.formatOnSave": true
-	},
-	"python.formatting.provider": "black",
-	"python.formatting.blackPath": "~/.local/bin/black",
-	"redhat.telemetry.enabled": false,
-	"git.confirmSync": false,
-	"security.workspace.trust.untrustedFiles": "open",
-	"editor.minimap.enabled": false
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "~/.local/bin/black",
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": true
+    }
+  },
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "redhat.telemetry.enabled": false,
+  "git.confirmSync": false,
+  "editor.minimap.enabled": false,
+  "svg.preview.mode": "img",
+  "sqltools.useNodeRuntime": true
 }
