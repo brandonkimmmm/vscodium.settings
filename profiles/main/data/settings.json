@@ -85,5 +85,6 @@
   "git.confirmSync": false,
   "editor.minimap.enabled": false,
   "svg.preview.mode": "img",
-  "sqltools.useNodeRuntime": true
+  "gitlens.telemetry.enabled": false,
+  "code-runner.enableAppInsights": false
 }

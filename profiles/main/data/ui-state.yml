@@ -5,7 +5,7 @@ golang.go: '{"go.extensionVersion":"0.37.0","latestGoVersions":{"timestamp":1681
   golang.org/dl/go1.19.8"}]},"forceUpdateForGoplsOnDefault":{"options":{},"loose":false,"includePrerelease":false,"raw":"v0.11.0","major":0,"minor":11,"patch":0,"prerelease":[],"build":[],"version":"0.11.0"},"goplsSurveyConfig":"{\"prompt\":true,\"promptThisMonth\":false,\"dateComputedPromptThisMonth\":\"2023-04-17T06:39:24.838Z\"}"}'
 mhutchie.git-graph: '{"lastKnownGitPath":"git"}'
 ms-azuretools.vscode-docker: '{"vscode-docker.container.newContainerUser":false}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.extension.nx-console","pinned":true,"visible":true,"order":14},{"id":"workbench.views.service.sidebar.e659ed58-1e75-4888-97f5-afe462114293","pinned":true,"visible":true},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.package-explorer","pinned":true,"visible":true,"order":8},{"id":"workbench.view.extension.sqltoolsActivityBarContainer","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.cspell-explorer","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.todo-tree-container","pinned":true,"visible":true,"order":10},{"id":"workbench.view.extension.dockerView","pinned":true,"visible":true,"order":11},{"id":"workbench.view.extension.jupyter","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.gitlens","pinned":false,"visible":true,"order":9},{"id":"workbench.views.service.sidebar.c9f4cf52-bbc7-4dff-9a71-6524db4e9f89","pinned":false,"visible":true},{"id":"workbench.view.editSessions","pinned":true,"visible":false},{"id":"userDataProfiles","pinned":true,"visible":false}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.extension.nx-console","pinned":true,"visible":true,"order":14},{"id":"workbench.views.service.sidebar.e659ed58-1e75-4888-97f5-afe462114293","pinned":true,"visible":true},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":true,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.package-explorer","pinned":true,"visible":true,"order":8},{"id":"workbench.view.extension.sqltoolsActivityBarContainer","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.cspell-explorer","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.todo-tree-container","pinned":true,"visible":true,"order":10},{"id":"workbench.view.extension.dockerView","pinned":true,"visible":true,"order":11},{"id":"workbench.view.extension.jupyter","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.gitlens","pinned":false,"visible":true,"order":9},{"id":"workbench.views.service.sidebar.c9f4cf52-bbc7-4dff-9a71-6524db4e9f89","pinned":false,"visible":true},{"id":"workbench.view.editSessions","pinned":true,"visible":false},{"id":"userDataProfiles","pinned":true,"visible":false}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{\"when\":\"scm.providerCount && scm.providerCount !=
@@ -46,26 +46,8 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   jsDebugHasExcludedCallers && debugType ==
   'pwa-node'\"}]},{\"id\":\"workbench.view.extensions\",\"themeIcon\":{\"id\":\
   \"extensions-view-icon\"},\"name\":\"Extensions\",\"isBuiltin\":true,\"views\
-  \":[{\"when\":\"defaultExtensionViews\"},{\"when\":\"searchExtensionUpdates ||
-  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
-  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
-  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
-  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
-  en\":\"defaultExtensionViews && hasGallery &&
-  !config.extensions.showRecommendationsOnlyOnDemand &&
-  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"searchMarketplaceExtensions\"},{\"when\
-  \":\"searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"w\
-  hen\":\"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\
-  \"when\":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensi\
-  ons\"},{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"w\
-  hen\":\"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupported\
-  WorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"}]},{\"id\":\"wor\
-  kbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explorer-view-icon\"},\"n\
-  ame\":\"Remote
+  \":[]},{\"id\":\"workbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explo\
+  rer-view-icon\"},\"name\":\"Remote
   Explorer\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extensio\
   n.test\",\"themeIcon\":{\"id\":\"test-view-icon\"},\"name\":\"Testing\",\"isB\
   uiltin\":true,\"views\":[{\"when\":\"testing.providerCount >
@@ -101,7 +83,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ,{\"id\":\"userDataProfiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\"},\
   \"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["javascript",true],["shellscript",true],["properties",true],["json",true],["ignore",true],["markdown",true],["prisma",true],["jsonc",true],["typescript",true],["plaintext",true],["typescriptreact",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["javascript",true],["shellscript",true],["properties",true],["json",true],["ignore",true],["markdown",true],["prisma",true],["typescript",true],["typescriptreact",true],["plaintext",true],["yaml",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false,"order":15},{"id":"timeline","isHidden":true,"order":16},{"id":"workbench.explorer.openEditorsView","isHidden":false,"order":13},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":false,"order":17},{"id":"workbench.explorer.fileView","isHidden":false,"order":14},{"id":"sqlite.explorer","isHidden":false},{"id":"workbench.scm.repositories","isHidden":true,"order":0},{"id":"workbench.scm","isHidden":false,"order":1},{"id":"gitlens.views.repositories","isHidden":true,"order":2},{"id":"gitlens.views.commits","isHidden":true,"order":3},{"id":"gitlens.views.commitDetails","isHidden":false,"order":4},{"id":"gitlens.views.fileHistory","isHidden":true,"order":5},{"id":"gitlens.views.lineHistory","isHidden":true,"order":6},{"id":"gitlens.views.branches","isHidden":true,"order":7},{"id":"gitlens.views.remotes","isHidden":true,"order":8},{"id":"gitlens.views.stashes","isHidden":true,"order":9},{"id":"gitlens.views.tags","isHidden":true,"order":10},{"id":"gitlens.views.worktrees","isHidden":true,"order":11},{"id":"gitlens.views.searchAndCompare","isHidden":true,"order":12},{"id":"go.explorer","isHidden":false}]'
 workbench.grid.size: '{"height":1190,"width":1749}'
 workbench.panel.alignment: center
